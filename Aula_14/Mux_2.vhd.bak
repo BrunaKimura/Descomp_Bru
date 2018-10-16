@@ -1,0 +1,29 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Mux_2 is
+
+	port
+	(
+		-- Input ports
+		A	: in  std_logic_vector(31 downto 0);
+		B	: in  std_logic_vector(31 downto 0);
+		sel : in  std_logic;
+
+		-- Output ports
+		q : out  std_logic_vector(31 downto 0)
+	);
+	
+end Mux_2;
+
+architecture arch_mux_2 of Mux_2 is
+	
+begin
+		
+	q <= 
+		A when sel = '0' else
+		B when sel = '1';
+
+end arch_mux_4;

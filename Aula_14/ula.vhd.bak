@@ -1,0 +1,28 @@
+library ieee;
+-- STD_LOGIC and STD_LOGIC_VECTOR types, and relevant functions
+use ieee.std_logic_1164.all;
+
+-- SIGNED and UNSIGNED types, and relevant functions
+use ieee.numeric_std.all;
+
+
+entity ula is
+	port
+	(
+		-- Input ports
+		<name>	: in  <type>;
+
+		-- Output ports
+		<name>	: out <type>;
+	);
+end ula;
+
+
+architecture arch_ula of ula is
+
+
+begin
+
+	
+
+end arch_ula;

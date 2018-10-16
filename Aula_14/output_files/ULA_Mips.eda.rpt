@@ -1,0 +1,108 @@
+EDA Netlist Writer report for ULA_Mips
+Thu Oct 11 18:01:26 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Thu Oct 11 18:01:26 2018 ;
+; Revision Name             ; ULA_Mips                              ;
+; Top-level Entity Name     ; ULA_Mips                              ;
+; Family                    ; Cyclone IV E                          ;
++---------------------------+---------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Thu Oct 11 18:01:25 2018
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off ULA_Mips -c ULA_Mips --vector_source=/home/bruna/QuartusProject/Aula_14/Waveform1.vwf --testbench_file=/home/bruna/QuartusProject/Aula_14/simulation/modelsim/Waveform1.vwf.vht
+Info (119006): Selected device EP4CE115F29C7 for design "ULA_Mips"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (201005): Ignoring output pin "R" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[31]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[30]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[29]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[28]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[27]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[26]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[25]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[24]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[23]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[22]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[21]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[20]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[19]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[18]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[17]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[16]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[15]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[14]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[13]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[12]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[11]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[10]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[9]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[8]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[7]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "R[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "ZERO" in vector source file when writing test bench files
+Info (201002): Generated VHDL Test Bench File /home/bruna/QuartusProject/Aula_14/simulation/modelsim/Waveform1.vwf.vht for simulation
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 35 warnings
+    Info: Peak virtual memory: 1055 megabytes
+    Info: Processing ended: Thu Oct 11 18:01:26 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
